@@ -1,4 +1,23 @@
-	
+	VERSION="2.3.0" 
+ 
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015" 
+ 
+ACCOUNTS=[ "GAHHULDPDVGB5WS5PH7BCGLJ7ZHECDBIIMKB62UPVDUOCHNFL7HX3FS7","GBPE7L6AMFQL2IGCVD36VVWZR5DDLINLETF2QMBAJG7ZA65MK7WI4BPK","GAMB5TX4HDYOX7UOTKEFGY6CS7WID4HLBB6PQSR46SQSRRTRXL5LYLMT","GAM2H25SAS5LEBZAF2FSZOJ73LNQUJ6KG3VKS2A6DPF7M5MVNLXYITUD"] 
+ 
+[DOCUMENTATION] 
+ORG_NAME="authentic-Payment" 
+ORG_URL="https://authentic-payment.com" 
+ORG_LOGO="https://authentic-payment.com/wp-content/uploads/2022/09/0285D629-1002-4423-B2E3-494D73ADE4D3-1.jpeg" 
+ORG_DESCRIPTION="Authentic-Payment is a forward-thinking digital enterprise that offers and trails digital services and products. By leveraging distributed ledger technology and digital currencies, we’ve built a scalable ecosystem on the Stellar.org blockchain, designed to be easily adopted and ready." 
+ORG_TWITTER="@OfficialApay" 
+ORG_OFFICIAL_EMAIL="support@authentic-payment.com" 
+
+[[CURRENCIES]] 
+code="ACT" 
+issuer="GAHHULDPDVGB5WS5PH7BCGLJ7ZHECDBIIMKB62UPVDUOCHNFL7HX3FS7"
+is_asset_anchored = true
+anchor_asset_type = "crypto"
+anchor_asset = "XLM"
 name="APAY Community Token" 
 desc="$ACT (Authentic-payment Community Token) is created on the stellar blockchain to support our ecosystem, the #StellarFamily and all #ACTpartners.Creating connections through liquidity pools and using the stellar decentralized exchange as the main platform for distribution ensures a sustainable and flawles experience. everyone can participate in building out liquidity positions, farming $ACT , support multiple communities and keep enganging with others fun and meaningful. " 
 conditions="$ACT is a 20 million max locked supply community token created by Authentic-Payment.com. Participants in the $ACT rewards program automatically get their share of the 80K monthly ACT rewards, based on where they're partricipating. Discover the #ACTtiers for a monthly airdrop & dive into one of the many liquidity pools to start receiving hourly payouts based on your LP share. Join T.ME/EarnACT to meet everyone involved, get ACT tokens in your #ACTtipBot on TG and check out what our partners are cooking. Boost #ACT and our involved communities while learning, trading, pooling and earning $ACT & other stellar tokens. #ACTonStellar"
