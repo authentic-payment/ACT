@@ -1,28 +1,58 @@
 	
-VERSION="2.0.0" 
+name="APAY Community Token" 
+desc="$ACT (Authentic-payment Community Token) is created on the stellar blockchain to support our ecosystem, the #StellarFamily and all #ACTpartners.Creating connections through liquidity pools and using the stellar decentralized exchange as the main platform for distribution ensures a sustainable and flawles experience. everyone can participate in building out liquidity positions, farming $ACT , support multiple communities and keep enganging with others fun and meaningful. " 
+conditions="$ACT is a 20 million max locked supply community token created by Authentic-Payment.com. Participants in the $ACT rewards program automatically get their share of the 80K monthly ACT rewards, based on where they're partricipating. Discover the #ACTtiers for a monthly airdrop & dive into one of the many liquidity pools to start receiving hourly payouts based on your LP share. Join T.ME/EarnACT to meet everyone involved, get ACT tokens in your #ACTtipBot on TG and check out what our partners are cooking. Boost #ACT and our involved communities while learning, trading, pooling and earning $ACT & other stellar tokens. #ACTonStellar"
+fixed_number = 20000000
+max_number = 20000000
+image="https://authentic-payment.com/wp-content/uploads/2025/10/ACTlogoORGnoBG-1.png" 
+status="live"
  
-NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015" 
- 
-ACCOUNTS=[ 
-"GAHHULDPDVGB5WS5PH7BCGLJ7ZHECDBIIMKB62UPVDUOCHNFL7HX3FS7","GBPE7L6AMFQL2IGCVD36VVWZR5DDLINLETF2QMBAJG7ZA65MK7WI4BPK"
-] 
+[[CURRENCIES]] 
+code="AXLM" 
+issuer="GAHHULDPDVGB5WS5PH7BCGLJ7ZHECDBIIMKB62UPVDUOCHNFL7HX3FS7"
+display_decimals=5
+name="ApayXLM" 
+desc="1:1 xlm backed token created by Authentic-Payment. Supply is determined on ask & demand. Move your $AXLM to your favorite wallet and be able to farm extra rewards in the APAY ecosystem." 
+conditions="$AXLM supply is determined by ask and demand. for every AXLM released we receive 1xlm, this will be added as liquidity so it is always possible to claim your XLM back. locked at 100M supply," 
+image="https://authentic-payment.com/wp-content/uploads/2022/09/AXLM-logo-v2.png" 
+status="live"
 
 [[CURRENCIES]] 
-code="ACT" 
-issuer="GAHHULDPDVGB5WS5PH7BCGLJ7ZHECDBIIMKB62UPVDUOCHNFL7HX3FS7"
-display_decimals="5"
-is_asset_anchored=false 
-name="Authentic-Payment Community Token" 
-desc="We have introduced the Authentic-Payment Community Token ($ACT) to support our ecosystem and the #StellarFamily as well as our other partners. We believe in the power of community, that's why ACT enables an Earn-Fi economy that rewards users for their contributions and encourages them to be active participants and supporters in our ecosystem." 
-conditions="$ACT is a 20 million max supply community token created by Authentic-Payment.com, grab your share of the 80k monthly $ACT inflation by supporting and growing the ecosystem"
-image="https://authentic-payment.com/wp-content/uploads/2023/01/IMG_1156.png" 
+code="MBC" 
+issuer="GBPE7L6AMFQL2IGCVD36VVWZR5DDLINLETF2QMBAJG7ZA65MK7WI4BPK"
+display_decimals=7
+name="MonBalCovenant" 
+desc="MonarchBalancedCovenant. APAY concept to proof the SDEX is magic. no banks. no institutions. A covenant by a group of entrepreneurs and workers supporting a liquid yield asset using and farming on the Stellar Decentralized Exchange, farming AMM rewards and holding speculative positions to grow its value. The balance between pools, XLM's price, positions, the farm results x it's limited supply bonds MBC as a monarch of value on chain." 
+conditions="Limited supply, issuer account will be locked once the sale of 1000 $MBC is completed. Funds used to farm liquidity on stellar and building out yielded positions, profits added as a floor in XLM and added to LPs. MAX supply: 1900!"
+image="https://authentic-payment.com/wp-content/uploads/2025/08/MBC-logo.png" 
+status="live"
+
+[[CURRENCIES]]
+code="AEUR" 
+issuer="GAMB5TX4HDYOX7UOTKEFGY6CS7WID4HLBB6PQSR46SQSRRTRXL5LYLMT"
+display_decimals=5
+name="ApayEURO" 
+desc="1:1 Euro backed token with EURC by Circle, used by Authentic-Payment. Supply is determined on ask & demand. Move or use your $AEUR to your favorite wallet and be able to trade/swap it 1:1 back or trade it whithin the SDEX." 
+conditions="$AEUR supply is determined by ask and demand. for every AEUR released we receive 1 EURC, it is automatically minted and burned on ask and demand." 
+image="https://authentic-payment.com/wp-content/uploads/2024/09/AEUR-no-BG.png" 
+status="live"
+
+[[CURRENCIES]]
+code="TBT" 
+issuer="GAM2H25SAS5LEBZAF2FSZOJ73LNQUJ6KG3VKS2A6DPF7M5MVNLXYITUD"
+display_decimals=2
+name="TokenBetaTester" 
+desc="tokenizing beta tool,used to demonstrate the digital voucher concept and others on the spot." 
+conditions="none, non refundable, " 
+image="https://authentic-payment.com/wp-content/uploads/2022/07/2080px-galaxy-white-v2-glow-nobg-2048x2048.png" 
 status="live"
 
 [[PRINCIPALS]]
 email="support@authentic-payment.com"
 twitter="@officialapay"
 telegram="https://t.me/EarnACT"
-  
+website="https://authentic-payment.com"
+stats="https://apayhub.authentic-payment.com"
 # Home Domain:authentic-payment.com 
-# $Authentic-Payment
-# $Apay $AXLM $ACT
+# Authentic-Payment
+# $MBC $AEUR $AXLM $ACT
